@@ -3,13 +3,13 @@ agent any
 stages {
 stage('Build') {
 steps {
-sh 'g++ main/newfile.cpp'
+sh 'g++ main/hello.cpp'
 build 'PES1UG21CS814 -1'
 }
 }
 stage('Test') {
 steps {
-sh './a'
+sh './a' out
 }
 }
 stage('Deploy') {
