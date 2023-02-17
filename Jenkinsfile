@@ -9,7 +9,7 @@ build 'PES1UG21CS814 -1'
 }
 stage('Test') {
 steps {
-sh './a.out'
+sh ./a.out
 }
 }
 stage('Deploy') {
