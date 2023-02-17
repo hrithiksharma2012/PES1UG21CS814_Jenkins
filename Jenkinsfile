@@ -4,7 +4,7 @@ stages {
 stage('Build') {
 steps {
 sh 'g++ main/newfile.cpp'
-build 'PES1UG21CS813-1'
+build 'PES1UG21CS814 -1'
 }
 }
 stage('Test') {
